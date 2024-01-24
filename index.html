@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <div class="float-start">
+        <header>
+            <div class="card" style="width: 18rem;">
+                <img src="jep.png" class="card-img-top" alt="jep">
+                <div class="card-body">
+                    <h5 class="card-title">Jeffrey Duran</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div id="list-example" class="list-group">
+                        <!-- Add IDs to the list items corresponding to the sections -->
+                        <a class="list-group-item list-group-item-action" href="#list-item-1">ABOUT ME</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-2">Skills</a>
+                        <a class="list-group-item list-group-item-action" href="#list-item-3">Education</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                        <!-- Add corresponding IDs to the sections -->
+                        <section id="list-item-1">
+                            <h2>ABOUT ME</h2>
+                            <p>Welcome to my profile! I am a passionate web developer with a keen interest in creating
+                                responsive and user-friendly websites. My skills include HTML, CSS, and JavaScript.
+                                I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                        </section>
+                        <section id="list-item-2">
+                            <h2>Skills</h2>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Responsive Design</li>
+                                <li>Web Development</li>
+                            </ul>
+                        </section>
+                        <section id="list-item-3">
+                            <h2>Education</h2>
+                            <p>Bachelor Of Science In Information Technology - PATEROS TECHNOLOGICAL COLLEGE (2024)</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Your form and additional content can go here -->
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea"></label>
+            </div>
+        </header>
+    </div>
+</body>
+</html>
